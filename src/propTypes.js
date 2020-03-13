@@ -1,11 +1,6 @@
 import PropTypes from 'prop-types'
 
 export const propTypes = {
-  accessibilityOptions: PropTypes.shape({
-    ariaLabelledBy: PropTypes.string,
-    closeButtonAriaLabel: PropTypes.string,
-    showNavigationScreenReaders: PropTypes.bool,
-  }),
   badgeContent: PropTypes.func,
   highlightedMaskClassName: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.element]),
@@ -72,16 +67,11 @@ export const propTypes = {
 }
 
 export const defaultProps = {
-  accessibilityOptions: {
-    closeButtonAriaLabel: 'Close',
-    showNavigationScreenReaders: true,
-  },
   showNavigation: true,
   showNavigationNumber: true,
   showButtons: true,
   showCloseButton: true,
   showNumber: true,
-  startAt: 0,
   scrollDuration: 1,
   maskSpace: 10,
   updateDelay: 1,

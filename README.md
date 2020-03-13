@@ -13,12 +13,6 @@
   </a>
 </p>
 
-<br />
-
-> ⚠️ The `master` branch is currently in _development_. Please use the [v1 branch](https://github.com/elrumordelaluz/reactour/tree/v1) to follow the current versions published.
-
-<br />
-
 ## Install
 
 ```zsh
@@ -75,22 +69,6 @@ const steps = [
 Type: `string`
 
 Default: `#007aff`
-
-#### accessibilityOptions
-
-> Configure accessibility related accessibility options
-
-Type: `object`
-
-Default:
-```js
-    // attribute to associate the dialog with a title for screen readers
-    ariaLabelledBy: null,
-    // aria-label attribute for the close button
-    closeButtonAriaLabel: 'Close',
-    // Show/Hide Navigation Dots for screen reader software
-    showNavigationScreenReaders: true,
-```
 
 #### badgeContent
 
@@ -332,11 +310,9 @@ Default: `true`
 
 Type: `number`
 
-Default: `0`
-
 #### steps
 
-> Array of elements to highlight with special info and props
+> Array of elements to highligt with special info and props
 
 Type: `shape`
 
